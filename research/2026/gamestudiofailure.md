@@ -46,6 +46,36 @@ Game publishers face pressure that can be examined and applied to businesses in 
 - **Filing Type:** Annual 10-K SEC filings
 - **Citation Format:** THQ Inc., Form 10-K Annual Reports, filed with the SEC
 
+**Data Retrieval Method:**
+
+Financial data was accessed programmatically from the SEC EDGAR API using the `edgar-py` Python library. The code below retrieves THQ's consolidated financial statements:
+
+```python
+from edgar import Company, set_identity
+
+# Set identity with email for SEC EDGAR API access
+set_identity("rport5729@gmail.com")
+
+# THQ Inc. SEC CIK: 865570
+company = Company("865570")
+
+print(company.name)
+print(company.cik)
+
+# Retrieve financial data from 10-K filings
+financials = company.get_financials()
+
+# Extract income statement data (contains Revenue, COGS, Operating Expenses, Net Income)
+income_statement = financials.income_statement()
+
+# Extract balance sheet data (contains Shares Outstanding)
+balance_sheet = financials.balance_sheet()
+
+# Process and consolidate data for fiscal years ending March 31, 2010-2012
+```
+
+**Alternative Access Method:** SEC EDGAR filings can also be accessed directly at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000865570&type=10-K&dateb=&owner=exclude&count=100
+
 ### Data Structure
 - **Row Unit:** Each row represents a **fiscal year** (annual financial snapshot)
 - **Time Resolution:** Annual data (fiscal years ending March 31)
