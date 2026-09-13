@@ -7,10 +7,10 @@
 
 
 ### Context
-This case study examines **THQ** (creators of Saints Row and Darksiders franchises), a major game publisher that declined between 2010-2012. Understanding the  indicators that signal failure is important due to the amount of investing and jobs that the company relies on, such as: investors and stakeholders, company leadership, and researchers studying business patterns.
+This case study examines **THQ** (creators of Saints Row and Darksiders franchises), a major game publisher that declined between 2010-2012. Understanding the  indicators that signal failure is import[...]
 
 ### Relevance
-Game publishers face pressure that can be examined and applied to businesses in other genres to help them avoid the same failures that the game publishers go through. Revenue from products that depend on virality, high costs from loaning the rights to intellectual property, and significant operating expenses (Research and development, marketing). Identifying failure patterns in this industry can help predict corporate bankruptcy, guide investment decisions, and inform turnaround strategies.
+Game publishers face pressure that can be examined and applied to businesses in other genres to help them avoid the same failures that the game publishers go through. Revenue from products that depend[...]
 
 ---
 
@@ -79,59 +79,40 @@ Game publishers face pressure that can be examined and applied to businesses in 
 ### Step 2: Variable Calculation
 **Variables Calculated:**
 
-```python
-# Gross Profit calculation
-df['Gross_Profit'] = df['Revenue'] - df['Total_COGS']
-
-# Margin percentages
-df['Gross_Margin_Pct'] = (df['Gross_Profit'] / df['Revenue']) * 100
-df['Operating_Margin_Pct'] = (df['Operating_Income'] / df['Revenue']) * 100
-
-# Cost ratios
-df['COGS_as_Pct_Revenue'] = (df['Total_COGS'] / df['Revenue']) * 100
-df['OpEx_as_Pct_Revenue'] = (df['Total_OpEx'] / df['Revenue']) * 100
-
-# EPS ratios
-df['EPS_Change_YoY'] = df['EPS_Basic'].pct_change() * 100
-```
+| Calculation | Formula | Purpose |
+|-------------|---------|---------|
+| Gross Profit | `Revenue - Total_COGS` | Measure profitability after direct costs |
+| Gross Margin % | `(Gross_Profit / Revenue) × 100` | Normalize gross profit as % of revenue |
+| Operating Margin % | `(Operating_Income / Revenue) × 100` | Normalize operating profit as % of revenue |
+| COGS as % of Revenue | `(Total_COGS / Revenue) × 100` | Measure cost structure intensity |
+| OpEx as % of Revenue | `(Total_OpEx / Revenue) × 100` | Measure operating efficiency |
+| EPS Change YoY | `EPS_Basic.pct_change() × 100` | Track year-over-year earnings trend |
 
 **Rationale:** Percentage-based metrics normalize across years and allow for trend identification independent of absolute revenue changes.
 
 ### Step 3: Derived Failure Stage Indicators
 **Variables Created:**
 
-```python
-# Operating expense ratio
-df['OpEx_Revenue_Ratio'] = df['Total_OpEx'] / df['Revenue']
-
-# Restructuring intensity
-df['Restructuring_as_Pct_Revenue'] = (df['Restructuring_Costs'] / df['Revenue']) * 100
-
-# Cost of sales intensity
-df['COGS_Revenue_Ratio'] = df['Total_COGS'] / df['Revenue']
-
-# Profitability trajectory
-df['Gross_Margin_Decline'] = df['Gross_Margin_Pct'].diff()
-df['Operating_Loss_Acceleration'] = df['Operating_Income'].diff()
-```
+| Indicator | Calculation | Warning Sign |
+|-----------|-------------|--------------|
+| OpEx Revenue Ratio | `Total_OpEx / Revenue` | Identifies when OpEx grows faster than revenue |
+| Restructuring Intensity | `(Restructuring_Costs / Revenue) × 100` | Flags organizational distress and layoffs |
+| COGS Revenue Ratio | `Total_COGS / Revenue` | Tracks cost of sales efficiency erosion |
+| Gross Margin Decline | `Gross_Margin_Pct.diff()` | Measures deterioration in profitability |
+| Operating Loss Acceleration | `Operating_Income.diff()` | Detects worsening operating performance |
 
 **Rationale:** These composite indicators flag warning signs: when COGS + OpEx exceed 100% of revenue, a company is spending more than it earns and cannot be sustained.
 
 ### Step 4: Data Validation
 **Checks Performed:**
 
-```python
-# Verify accounting identity
-assert (df['Revenue'] - df['Total_COGS'] == df['Gross_Profit']).all()
-assert (df['Gross_Profit'] - df['Total_OpEx'] == df['Operating_Income']).all()
-
-# Verify no null values in critical fields
-assert df[['Revenue', 'Total_COGS', 'Operating_Income']].isnull().sum() == 0
-
-# Verify logical consistency
-assert (df['Total_COGS'] > 0).all()  # COGS should be positive
-assert (df['Revenue'] > 0).all()  # Revenue should be positive
-```
+| Validation Check | Purpose |
+|------------------|---------|
+| `Revenue - Total_COGS == Gross_Profit` | Verify accounting identity for gross profit |
+| `Gross_Profit - Total_OpEx == Operating_Income` | Verify accounting identity for operating income |
+| No null values in: Revenue, Total_COGS, Operating_Income | Ensure data completeness in critical fields |
+| `Total_COGS > 0` | Verify COGS is logically positive |
+| `Revenue > 0` | Verify revenue is logically positive |
 
 **Rationale:** Financial data must satisfy accounting identities; validating these ensures data integrity before analysis.
 
