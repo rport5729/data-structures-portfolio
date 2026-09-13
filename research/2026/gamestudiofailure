@@ -1,2 +1,15 @@
 # How Can Data Monitor The Stages of a Game Studio's Failure? 
 
+from edgar import Company, set_identity
+
+set_identity("rport5729@gmail.com")
+
+# Replace with the SEC CIK, including leading zeros if shown
+company = Company("865570")
+
+print(company.name)
+print(company.cik)
+
+financials = company.get_financials()
+financials.balance_sheet()
+financials.income_statement()
