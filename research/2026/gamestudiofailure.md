@@ -1,27 +1,16 @@
-# How Can Data Monitor The Stages of a Game Publisher's Failure?
-
+# Game Publishers Finanical Data Research Study - THQ
 ---
 
 ## 1. Problem Definition
 
-### Research Question
-How can financial data from consolidated income statements be used to identify and monitor the distinct stages of a game publisher's decline and failure?
+## Research Question: How can financial data from consolidated income statements be used to identify and monitor the stages of a game publisher's failure?
+
 
 ### Context
-This case study examines **THQ** (creators of Saints Row and Darksiders franchises), a major game publisher that declined rapidly between 2010-2012. Understanding the financial indicators that signal organizational failure is critical for:
-- Investors evaluating business health
-- Company leadership making strategic decisions
-- Stakeholders anticipating financial crises
-- Researchers studying business failure patterns
+This case study examines **THQ** (creators of Saints Row and Darksiders franchises), a major game publisher that declined between 2010-2012. Understanding the  indicators that signal failure is important due to the amount of investing and jobs that the company relies on, such as: investors and stakeholders, company leadership, and researchers studying business patterns.
 
 ### Relevance
-Game publishers face unique pressures: volatile revenue from hit-driven products, high amortization costs from intellectual property portfolios, and significant operating expenses (R&D, marketing). Identifying failure patterns in this industry can help predict corporate bankruptcy, guide investment decisions, and inform turnaround strategies.
-
-### Specific Research Questions
-1. What financial patterns emerge in the years leading to corporate failure?
-2. Can we identify distinct "failure stages" through income statement analysis?
-3. Which KPIs best predict critical failure (Stage 3+)?
-4. How effective are recovery attempts (restructuring, increased sales spending) when companies are already in decline?
+Game publishers face pressure that can be examined and applied to businesses in other genres to help them avoid the same failures that the game publishers go through. Revenue from products that depend on virality, high costs from loaning the rights to intellectual property, and significant operating expenses (Research and development, marketing). Identifying failure patterns in this industry can help predict corporate bankruptcy, guide investment decisions, and inform turnaround strategies.
 
 ---
 
