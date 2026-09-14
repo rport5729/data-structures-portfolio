@@ -6,6 +6,6 @@
 ## Portfolio
 - [Blog](blog.md)
 - [Projects](projects.md)
-- [Contact](contact-resources)
+- [Contact](contact-resources/links.md)
 
 - [Repository](https://github.com/rport5729/data-structures-portfolio/blob/main/index.md)
