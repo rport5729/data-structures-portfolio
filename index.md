@@ -8,3 +8,5 @@
 - [Projects](projects.md)
 - [Research](research)
 - [Contact](contact-resources)
+
+- [Repository](https://github.com/rport5729/data-structures-portfolio/blob/main/index.md)
