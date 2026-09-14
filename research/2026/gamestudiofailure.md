@@ -215,7 +215,20 @@ balance_sheet = financials.balance_sheet()
 |--------|------|------|------|
 | EPS (Basic) | -$0.13 | -$2.00 | -$3.55 |
 | EPS (Diluted) | -$0.13 | -$2.00 | -$3.55 |
-| Shares Outstanding | 67,522K | 67,910K | 68,369K |
+| Shares Outstanding | 67,522K | 67,910K
+ | 68,369K |
+
+
+---
+
+## 4. Data Vizualizations
+
+<img width="591" height="470" alt="graph1" src="https://github.com/user-attachments/assets/6d2ad85b-6d5d-4736-978d-b0b629a42292" />
+### Revenue and spending both dipped from 2010-2011, and then increased back up from 2011-2012. This sign of "less activity", whether it be laying off staff, producing less in-house, or simply publishing less, is likely a good indicator at predicting a game publishers dissolve.
+
+<img width="989" height="590" alt="graph2" src="https://github.com/user-attachments/assets/7aeae3b6-a78c-4e17-8f2d-9ae31a5d63f8" />
+### Royalty costs have consistantly been slightly under half of the companies total cost of goods, however in THQ's final year (2012) they had the pay more royalties for licneses that needed to be cancelled while their games were still actively being developed. This leads to an above 50% margin of royalty-to-total ratio that is a sign that a publisher is slowing down and is a useful predictor for a publishers dissolve.
+
 
 ---
 
