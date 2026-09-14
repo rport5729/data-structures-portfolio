@@ -7,7 +7,7 @@
 
 
 ### Context
-This case study examines **THQ** (creators of Saints Row and Darksiders franchises), a major game publisher that declined between 2010-2012. Understanding the  indicators that signal failure is important to stakeholders, investors, and business leaders across all industries.
+This case study examines **THQ** (creators of Saints Row and Darksiders franchises), a major game publisher founded in 1990 that declined between 2010-2012. Understanding the indicators that signal failure is important to stakeholders, investors, and business leaders across all industries.
 
 ### Relevance
 Game publishers face pressure that can be examined and applied to businesses in other genres to help them avoid the same failures that the game publishers go through. Revenue from products that depend on market timing, consumer preferences, and large upfront capital investments can face similar challenges across entertainment, software, and hardware industries.
@@ -72,6 +72,7 @@ income_statement = financials.income_statement()
 balance_sheet = financials.balance_sheet()
 
 # Process and consolidate data for fiscal years ending March 31, 2010-2012
+
 ```
 
 **Alternative Access Method:** SEC EDGAR filings can also be accessed directly at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000865570&type=10-K&dateb=&owner=exclude&count=100
@@ -229,7 +230,7 @@ Revenue and spending both dipped from 2010-2011, and then increased back up from
 <img width="989" height="590" alt="graph2" src="https://github.com/user-attachments/assets/7aeae3b6-a78c-4e17-8f2d-9ae31a5d63f8" />
 
 ### Cost of Goods Sold Composition
-Royalty costs have consistently been slightly under half of the company's total cost of goods sold. However, in THQ's final year (2012), they had to pay more royalties for licenses that needed to be written down or for franchises underperforming expectations. The spike in Software Amortization & Royalties from $129M (2011) to $308M (2012) represents management's acceleration of writedowns on failed game investments—a clear signal of portfolio deterioration.
+Royalty costs have consistently been slightly under half of the company's total cost of goods sold. However, in THQ's final year (2012), they had to pay more royalties for licenses that needed to be written down or for franchises underperforming expectations. The spike in Software Amortization & Royalties from $129M (2011) to $308M (2012) represents management's acceleration of writedowns on failed game investments-a clear signal of portfolio deterioration.
 
 ---
 
@@ -239,15 +240,15 @@ Royalty costs have consistently been slightly under half of the company's total 
 
 THQ's financial trajectory from 2010 to 2012 tells a cautionary tale of a publisher caught between two unsustainable strategies: heavy investment in IP licensing and insufficient revenue to support its cost structure.
 
-**Act I (2010): Hidden Crisis** — While THQ reported $899.1M in revenue, the company was already unprofitable, posting an operating loss of $9.6M. The warning signs were subtle: a gross margin of 30.4% was respectable, but operating expenses at 31.4% of revenue left no room for profitability. The company was on a knife's edge—any revenue decline would immediately cascade into larger losses.
+**Act I (2010): Hidden Crisis** - While THQ reported $899.1M in revenue, the company was already unprofitable, posting an operating loss of $9.6M. The warning signs were subtle: a gross margin of 30.4% was respectable, but operating expenses at 31.4% of revenue left no room for profitability. The company was on a knife's edge-any revenue decline would immediately cascade into larger losses.
 
-**Act II (2011): Acceleration** — Revenue collapsed by 26% to $665.3M, triggering a cascade of failures. Gross profit dropped 47% to $145.7M. The critical metric—**total spending as a percentage of revenue**—jumped from 101% to 120.4%, meaning THQ was spending $1.20 for every $1.00 earned. This is mathematically unsustainable. The company posted a $135.7M operating loss. Management attempted cost controls (cutting R&D by 9% and G&A by 22%), but these actions were insufficient and too slow—the revenue decline outpaced expense reductions.
+**Act II (2011): Acceleration** - Revenue collapsed by 26% to $665.3M, triggering a cascade of failures. Gross profit dropped 47% to $145.7M. The critical metric-**total spending as a percentage of revenue**-jumped from 101% to 120.4%, meaning THQ was spending $1.20 for every $1.00 earned. This is mathematically unsustainable. The company posted a $135.7M operating loss. Management attempted cost controls (cutting R&D by 9% and G&A by 22%), but these actions were insufficient and too slow-the revenue decline outpaced expense reductions.
 
-**Act III (2012): Terminal Decline** — Revenue partially recovered to $830.8M (+24.9%), but this appeared to be a false recovery. Software amortization and royalties—which had been $129M in 2011—ballooned to $308M, more than doubling year-over-year. This spike suggests THQ was forced to accelerate writedowns of failed game investments and pay escalating royalty costs on underperforming licensed franchises. The company's spending reached 129.1% of revenue, and operating losses hit $242.1M. By the end of 2012, THQ filed for bankruptcy.
+**Act III (2012): Terminal Decline** - Revenue partially recovered to $830.8M (+24.9%), but this appeared to be a false recovery. Software amortization and royalties-which had been $129M in 2011-ballooned to $308M, more than doubling year-over-year. This spike suggests THQ was forced to accelerate writedowns of failed game investments and pay escalating royalty costs on underperforming licensed franchises. The company's spending reached 129.1% of revenue, and operating losses hit $242.1M. By the end of 2012, THQ filed for bankruptcy.
 
 ### What the Data Reveals About Failure
 
-The most striking pattern is the explosion in Software Amortization & Royalties. These costs represent capitalized game development and IP licensing fees—obligations THQ had committed to before revenue declined. When a company bets heavily on specific franchises and those franchises underperform, amortization becomes a treadmill: write-offs accelerate as management acknowledges failure, but the cash has already been spent. THQ was locked into multi-year IP deals (Saints Row, Darksiders) that generated insufficient revenue to justify the investment.
+The most striking pattern is the explosion in Software Amortization & Royalties. These costs represent capitalized game development and IP licensing fees-obligations THQ had committed to before revenue declined. When a company bets heavily on specific franchises and those franchises underperform, amortization becomes a treadmill: write-offs accelerate as management acknowledges failure, but the cash has already been spent. THQ was locked into multi-year IP deals (Saints Row, Darksiders) that generated insufficient revenue to justify the investment.
 
 ### Incorrect Conclusion
 
@@ -263,48 +264,48 @@ THQ failed because it was locked into high fixed costs (amortization, IP royalti
 
 ### What This Dataset Fails to Capture
 
-**Unit Economics and Game-Level Performance**
+**Unit Economics and Game-Level Performance** - 
 The consolidated statements aggregate all of THQ's games into single revenue and cost figures. This masks critical questions: Which specific games failed? Which licenses were profitable? The data cannot identify whether Saints Row: The Third (actually released in late 2011) succeeded or failed, or how specific IP licenses contributed to or detracted from performance. A game-by-game P&L would be far more diagnostic.
 
-**Cash Flow vs. Accounting Profit**
+**Cash Flow vs. Accounting Profit** - 
 SEC income statements report accrual-based earnings (amortization, royalties), but do not show cash timing. THQ might have had cash available despite accounting losses, or vice versa. The $308M software amortization in 2012 is a non-cash charge (the cash was spent in prior years), so it does not directly explain bankruptcy. A cash flow statement would reveal whether liquidity constraints or operating losses were the immediate trigger.
 
-**Market Context and Competitive Dynamics**
+**Market Context and Competitive Dynamics** - 
 The data does not include information about competitors (Activision, Take-Two, EA), market trends (console cycles, indie game disruption), or industry-wide sales trends. Did the entire game industry decline in 2011, or was THQ uniquely vulnerable? Without competitive context, the conclusion that THQ's failure was structural rather than cyclical rests partly on inference.
 
 
 ### Data Biases and Collection Gaps
 
-**Survivorship and Selection Bias**
+**Survivorship and Selection Bias** - 
 This analysis examines THQ after it had already failed. A truly predictive model would need to compare THQ's financial trajectory to other publishers that *survived* the 2010-2012 period, to identify which metrics actually distinguish failure from success. Without that comparison group, we cannot rule out the possibility that other studios had similar financial profiles but survived through other means (M&A, licensing deals, hit releases).
 
-**Accounting Choices and Discretion**
-Amortization schedules, software capitalization policies, and restructuring charge timing are subject to management judgment. THQ's 2012 decision to accelerate software amortization (jumping from $129M to $308M) likely reflects a write-down of failed projects—but the timing and magnitude are influenced by accounting policy and management's willingness to recognize losses. Earlier companies might have taken these charges differently.
+**Accounting Choices and Discretion** - 
+Amortization schedules, software capitalization policies, and restructuring charge timing are subject to management judgment. THQ's 2012 decision to accelerate software amortization (jumping from $129M to $308M) likely reflects a write-down of failed projects-but the timing and magnitude are influenced by accounting policy and management's willingness to recognize losses. Earlier companies might have taken these charges differently.
 
-**Fiscal Year-End Timing**
+**Fiscal Year-End Timing** - 
 THQ's fiscal year ends on March 31. Games released in April-June (i.e., Q1 of the next fiscal year) would not appear in the current year's revenue. If THQ released a blockbuster in Q1 FY2013, the 2012 financial statements would not reflect the recovery. This misalignment between release timing and financial reporting creates narrative distortion.
 
 
 ### Ethical Considerations
 
-**Oversimplifying Failure**
-By reducing THQ's collapse to financial metrics, we risk suggesting that business failures are purely quantitative problems solvable through better spreadsheet management. In reality, the people employed by THQ—developers, artists, community managers—experienced layoffs, broken equity packages, and career disruption. The narrative should acknowledge that behind these financial tables are human costs.
+**Oversimplifying Failure** - 
+By reducing THQ's collapse to financial metrics, we risk suggesting that business failures are purely quantitative problems solvable through better spreadsheet management. In reality, the people employed by THQ-developers, artists, community managers-experienced layoffs, broken equity packages, and career disruption. The narrative should acknowledge that behind these financial tables are human costs.
 
-**Survivorship Bias**
+**Survivorship Bias** - 
 This analysis might lead to the conclusion that high royalty costs or fixed operating expenses are "bad" strategies. But other publishers (e.g., Electronic Arts, Ubisoft) have survived and thrived with similar cost structures. Recommending that all publishers avoid royalty agreements or maintain low fixed costs based on THQ's failure alone would be overgeneralization. Survival depends on product success and market timing, not just financial structure.
 
-**Attribution and Causation**
+**Attribution and Causation** - 
 The data shows correlation (rising costs, falling profitability) but not causation (did high costs cause failure, or did management's failed bets cause both high costs and failure?). A responsible analysis must be cautious about assigning blame to financial metrics as if they were independent causes rather than symptoms.
 
 ### What I Would Explore Next
 
-**Comparative Analysis**
+**Comparative Analysis** - 
 Analyze 3-5 other game publishers' financial statements from the same period (Activision, Ubisoft, Take-Two, EA). Would the same failure indicators appear in their data? Which metrics distinguished failing from surviving studios? A control group would transform this from a case study into a predictive model.
 
-**Game Release Timing**
+**Game Release Timing** - 
 Cross-reference THQ's fiscal quarters with specific game releases (dates, platforms, sales figures). Did revenue drops correspond to delayed releases or underperforming titles? Segment COGS by game category (owned franchises vs. licensed IP) to quantify the value destruction of each.
 
-**Market Analysis**
+**Market Analysis** - 
 Analyze console cycle timing (PS3/Xbox 360 lifecycles, Wii aging), indie game growth, and digital distribution disruption. Was 2011 a particularly difficult year for console publishers? Did THQ's decline track broader industry trends, or was it idiosyncratic?
 
 ---
@@ -314,7 +315,7 @@ Analyze console cycle timing (PS3/Xbox 360 lifecycles, Wii aging), indie game gr
 ### Data Sources and Access
 
 **Primary Data Source:**
-- **SEC EDGAR Database** — THQ Inc. 10-K Annual Reports  
+- **SEC EDGAR Database** - THQ Inc. 10-K Annual Reports  
   - CIK: 865570  
   - Filings accessed: FY2010, FY2011, FY2012 (fiscal years ending March 31)  
   - Direct link: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000865570&type=10-K&dateb=&owner=exclude&count=100
@@ -344,14 +345,7 @@ This research is part of the "Data Structures Portfolio" repository, publicly av
 
 ### Use of Generative AI Tools
 
-**GitHub Copilot** was used for the following purposes in accordance with course policy:
-
-| Task | Tool | Purpose | Usage Notes |
-|------|------|---------|------------|
-| Research question refinement | GitHub Copilot | Brainstorming and articulating the core research question | Used to clarify phrasing; final research question represents my framing |
-| Failure stage framework | GitHub Copilot | Generating conceptual categories (Act I/II/III narrative structure) | Adapted framework to fit THQ's specific timeline and metrics |
-| Visualization descriptions | GitHub Copilot | Drafting alt-text and analysis summaries for graphs | Used to improve clarity; all numerical interpretations verified against raw data |
-| Limitations section | GitHub Copilot | Brainstorming categories of biases and methodological constraints | Framework adapted; specific content (e.g., fiscal year-end timing bias) based on domain research |
+**GitHub Copilot** was used in accordance with course policy
 
 **Key Limitation:** GitHub Copilot is a code completion and assistance tool trained on public code repositories. It cannot retrieve or validate SEC filings independently. All specific financial figures cited in this analysis were independently verified against THQ's original 10-K filings.
 
@@ -395,11 +389,9 @@ To reproduce this analysis:
 
 ## Conclusion
 
-THQ's financial collapse was not a sudden crisis but a three-year deterioration rooted in structural misalignment between revenue and cost obligations. The company was unprofitable from 2010 onward, with spending exceeding 100% of revenue annually. When revenue declined 26% in 2011, the mathematical imbalance became catastrophic. The 2012 "recovery" in revenue proved illusory when offset by a $179M increase in amortization charges—likely reflecting management's acknowledgment of failed game investments.
+THQ's financial collapse was not a three-year deterioration rooted in structural misalignment between revenue and cost obligations. The company was unprofitable from 2010 onward, with spending exceeding 100% of revenue annually. When revenue declined 26% in 2011, the mathematical imbalance became catastrophic. The 2012 "recovery" in revenue proved illusory when offset by a $179M increase in amortization charges-likely reflecting management's acknowledgment of failed game investments.
 
-The most critical failure indicator was the ratio of **Total Spending (COGS + OpEx) to Revenue**, which reached 129.1% by 2012. This metric captures what income statements make explicit: THQ was burning capital systematically. No company can sustain spending more than 100% of its revenue indefinitely.
-
-This analysis demonstrates that financial statements, when read carefully, provide a narrative of organizational failure that precedes bankruptcy. The data tells a story; we need only listen carefully to hear it.
+This analysis demonstrates that financial statements, provide a set of predictors that lead to dissolve.
 
 ---
 
