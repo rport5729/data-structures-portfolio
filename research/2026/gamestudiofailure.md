@@ -21,7 +21,7 @@ Game publishers face pressure that can be examined and applied to businesses in 
 | Variable | Definition | Measurement | Unit |
 |----------|-----------|-------------|------|
 | **Revenue** | Total sales from product sales | Annual reported revenue | $K (thousands) |
-| **Product Costs** | Direct manufacturing/distribution costs | COGS line item | $K |
+| **Product Costs** | Direct manufacturing/distribution costs | COGS (Cost of Goods Sold) line item | $K |
 | **Software Amortization & Royalties** | Capitalized software development written down over time + licensing fees | COGS line item | $K |
 | **License Amortization & Royalties** | IP licensing and franchise royalty costs | COGS line item | $K |
 | **Total COGS** | Sum of all product-related costs | Product Costs + Software + License Amortization | $K |
