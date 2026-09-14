@@ -4,4 +4,4 @@
 https://www.linkedin.com/in/ryan-port-877a65436/
 
 ## Resume
-[Resume](resume.png)
+[Resume](contact-resources/Ryan_Port_Resume.pdf)
