@@ -1,4 +1,4 @@
-# Blog 1 
+# Blog 1 - About me and my relationship with data science
 ## What is Data Science to Me?
 
 To me, Data Science is the overarching study of reasoning. For all decisions is a reason behind them, and Data Science is the study of such. Anybody is able to gather information and come to a conclusion, but Data Scientists are responsible for gathering and analyzing mass amounts of data that require tools that take time to master.
