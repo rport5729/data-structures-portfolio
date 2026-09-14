@@ -1,4 +1,6 @@
 # Game Publishers Finanical Data Research Study - THQ
+[Github Folder](https://github.com/rport5729/data-structures-portfolio/tree/main/research/2026/thq)
+
 ---
 
 ## 1. Problem Definition
