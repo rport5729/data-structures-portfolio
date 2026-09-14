@@ -240,15 +240,17 @@ Royalty costs have consistently been slightly under half of the company's total 
 
 THQ's financial trajectory from 2010 to 2012 tells a cautionary tale of a publisher caught between two unsustainable strategies: heavy investment in IP licensing and insufficient revenue to support its cost structure.
 
-**Act I (2010): Hidden Crisis** - While THQ reported $899.1M in revenue, the company was already unprofitable, posting an operating loss of $9.6M. The warning signs were subtle: a gross margin of 30.4% was respectable, but operating expenses at 31.4% of revenue left no room for profitability. The company was on a knife's edge-any revenue decline would immediately cascade into larger losses.
+**(Pre-2010) Same Signs** - THQ, even before their final three years, was already in decline. As a result of the loss, THQ will reduce annual spending by $220 million. The business realignment plan also calls for layoffs of 600 workers, or approximately 24 percent of the company's total work force. (Lee, 2009)
 
-**Act II (2011): Acceleration** - Revenue collapsed by 26% to $665.3M, triggering a cascade of failures. Gross profit dropped 47% to $145.7M. The critical metric-**total spending as a percentage of revenue**-jumped from 101% to 120.4%, meaning THQ was spending $1.20 for every $1.00 earned. This is mathematically unsustainable. The company posted a $135.7M operating loss. Management attempted cost controls (cutting R&D by 9% and G&A by 22%), but these actions were insufficient and too slow-the revenue decline outpaced expense reductions.
+**(2010) Hidden Crisis** - While THQ reported $899.1M in revenue, the company was already unprofitable, posting an operating loss of $9.6M. The warning signs were subtle: a gross margin of 30.4% was respectable, but operating expenses at 31.4% of revenue left no room for profitability. The company was on a knife's edge-any revenue decline would immediately cascade into larger losses.
 
-**Act III (2012): Terminal Decline** - Revenue partially recovered to $830.8M (+24.9%), but this appeared to be a false recovery. Software amortization and royalties-which had been $129M in 2011-ballooned to $308M, more than doubling year-over-year. This spike suggests THQ was forced to accelerate writedowns of failed game investments and pay escalating royalty costs on underperforming licensed franchises. The company's spending reached 129.1% of revenue, and operating losses hit $242.1M. By the end of 2012, THQ filed for bankruptcy.
+**(2011) Acceleration** - Revenue collapsed by 26% to $665.3M, triggering a cascade of failures. Gross profit dropped 47% to $145.7M. The critical metric-**total spending as a percentage of revenue**-jumped from 101% to 120.4%, meaning THQ was spending $1.20 for every $1.00 earned. This is mathematically unsustainable. The company posted a $135.7M operating loss. Management attempted cost controls (cutting R&D by 9% and G&A by 22%), but these actions were insufficient and too slow-the revenue decline outpaced expense reductions.
+
+**(2012) Terminal Decline** - Revenue partially recovered to $830.8M (+24.9%), but this appeared to be a false recovery. Software amortization and royalties-which had been $129M in 2011-ballooned to $308M, more than doubling year-over-year. This spike suggests THQ was forced to accelerate writedowns of failed game investments and pay escalating royalty costs on underperforming licensed franchises. The company's spending reached 129.1% of revenue, and operating losses hit $242.1M. By the end of 2012, THQ filed for bankruptcy. (Jones, Sherr, 2012).
 
 ### What the Data Reveals About Failure
 
-The most striking pattern is the explosion in Software Amortization & Royalties. These costs represent capitalized game development and IP licensing fees-obligations THQ had committed to before revenue declined. When a company bets heavily on specific franchises and those franchises underperform, amortization becomes a treadmill: write-offs accelerate as management acknowledges failure, but the cash has already been spent. THQ was locked into multi-year IP deals (Saints Row, Darksiders) that generated insufficient revenue to justify the investment.
+The most striking pattern is the explosion in Software Amortization & Royalties. These costs represent capitalized game development and IP licensing fees-obligations THQ had committed to before revenue declined. When a company bets heavily on specific franchises and those franchises underperform, amortization becomes a treadmill: write-offs accelerate as management acknowledges failure, but the cash has already been spent. THQ was locked into multi-year IP deals (Saints Row, Darksiders) that generated insufficient revenue to justify the investment. Alongside that, their venture in the art world with the U-Draw tablet was a massive failure and contributed to their bankruptcy. (Sherr, 2012)
 
 ### Incorrect Conclusion
 
@@ -392,6 +394,15 @@ To reproduce this analysis:
 THQ's financial collapse was not a three-year deterioration rooted in structural misalignment between revenue and cost obligations. The company was unprofitable from 2010 onward, with spending exceeding 100% of revenue annually. When revenue declined 26% in 2011, the mathematical imbalance became catastrophic. The 2012 "recovery" in revenue proved illusory when offset by a $179M increase in amortization charges-likely reflecting management's acknowledgment of failed game investments.
 
 This analysis demonstrates that financial statements, provide a set of predictors that lead to dissolve.
+
+---
+## Sources:
+Lee, M. (2009). THQ Sees Heavy Losses. Red Herring, 1.
+
+Jones, K., & Sherr, I. (2012). Game Maker THQ Seeks Chapter 11. Wall Street Journal - Eastern Edition, 260(148), B6.
+
+Sherr, I. (2012). After uDraw Flop, THQ Works on Recovery Plan. Wall Street Journal - Eastern Edition, 259(53), B7.
+
 
 ---
 
