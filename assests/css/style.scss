@@ -1,1 +1,19 @@
+---
+---
+@import "{{ site.theme }}";
 
+body { font-size: 18px; line-height: 1.6; }
+#main_content, .markdown-body { max-width: 750px; margin: 0 auto; }
+a { text-decoration: underline; }
+img { max-width: 100%; height: auto; }
+
+.site-nav {
+  text-align: center;
+  padding: 0.75rem 0;
+}
+.site-nav a {
+  margin: 0 0.75rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.site-nav a:hover { text-decoration: underline; }
