@@ -14,10 +14,10 @@ img { max-width: 100%; height: auto; }
 .site-nav a {
   padding: 0.6rem 1.3rem;
   border-radius: 12px;
-  color: #fff;
+  color: #006666;
   font-weight: bold;
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.15);            /* see-through fill */
+  background: rgba(120, 240, 255, 0.15);            /* see-through fill */
   backdrop-filter: blur(10px) saturate(160%);        /* frosted blur */
   -webkit-backdrop-filter: blur(10px) saturate(160%);
   border: 1px solid rgba(255, 255, 255, 0.35);       /* glass edge */
