@@ -12,6 +12,8 @@ body {
     !important;
   background-attachment: fixed !important;
   min-height: 100vh;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
 }
 
 body { font-size: 18px; line-height: 1.6; }
@@ -26,7 +28,7 @@ img { max-width: 100%; height: auto; }
 .site-nav a {
   padding: 0.6rem 1.3rem;
   border-radius: 12px;
-  color: #006666;
+  color: rgba(255, 255, 255, 0.92);
   font-weight: bold;
   text-decoration: none;
   background: rgba(120, 240, 255, 0.15);            /* see-through fill */
