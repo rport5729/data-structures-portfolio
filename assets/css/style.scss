@@ -1,6 +1,13 @@
 ---
 ---
 @import "{{ site.theme }}";
+header h1.title,
+header h1.title a {
+  color: #fff !important;
+  text-decoration: none;
+  text-shadow: 0 2px 6px rgba(0, 60, 120, 0.5);
+}
+
 body {
   background:
     radial-gradient(circle at 15% 20%, rgba(255,255,255,0.55) 0 40px, transparent 42px),
