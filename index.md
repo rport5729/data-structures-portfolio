@@ -3,7 +3,7 @@ title: Home
 ---
 
 # Ryan Port
-**Data Science student at UNC Charlotte**
+**Data Science Student -- UNC Charlotte**
 
 Welcome to my Data Science Studio portfolio. This site documents my learning and projects throughout the semester.
 
