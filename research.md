@@ -5,4 +5,4 @@ This section documents my data science projects, research questions, and data st
 [Analyzing Financial Predictors That Lead To Game Publisher's Bankrupcties](research/2026/thq/gamestudiofailure.md)
 
 ## Research Project 2
-[Deadlock Study](research/2026/deadlock/study.md)
+[Do Psychological Factors and Game State Predict Match Outcomes in Deadlock](research/2026/deadlock/study.md)
