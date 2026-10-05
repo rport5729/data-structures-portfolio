@@ -1,15 +1,5 @@
 # Do Psychological Factors and Game State Predict Match Outcomes in Deadlock?
 
-## Core Design
-
-- **Unit of analysis:** one player in one match.
-- **Target:** win or loss, so this is binary classification.
-- **Feature sets**, each added on top of the last:
-  1. **Controls:** rank or MMR, hero, patch.
-  2. **Psychological (pre-match):** loss streak, hero experience, party status, fatigue.
-  3. **Game state at a time point:** soul and objective differences at 10, 20, and 30 minutes.
-- **Models:** logistic regression, random forest, and gradient boosting (XGBoost or LightGBM).
-
 ---
 
 ## 1. Problem Definition
@@ -58,6 +48,10 @@ Psychology sources are listed in [References](#references).
 
 ## 4. Data Understanding and Exploration
 
+![Streak Win Rate](streakwinrate.png)
+
+![Soul Lead Win Rate](soulleadwinrate.png)
+
 - **Summary statistics:**
   - The summary statistics show that streaks do not happen often, as we go from almost 72,000 matches with no streak to around 2,500 matches on just a two-streak (within the observed pages and dat[...]
   - Missing values are found on the second chart in terms of later games having low or no sample size. The longer the game goes on, the more comeback mechanics are in play. This forces games to gr[...]
@@ -66,7 +60,6 @@ Psychology sources are listed in [References](#references).
 - **Visualizations:** I use a win/loss count plot for target balance, the streak bar chart for the psychological proxy, and the heatmap for relative gold advantage by checkpoint. Boxplots can help[...]
 - **Feature choices:** Compute streaks only from matches before the current one.
 
-![Streak Win Rate](streakwinrate.png)
 
 ---
 
@@ -116,9 +109,6 @@ Psychology sources are listed in [References](#references).
 
 - **What the model learned:** A team's relative soul lead is strongly related to whether it wins. A larger lead corresponds to higher odds of winning. Match minute had very little influence in th[...]
 - **Most influential features:** Soul lead was the strongest feature. The logistic regression coefficient was 1.852 per standard deviation of soul lead, which corresponds to about 6.375 times the[...]
-
-![Soul Lead Win Rate](soulleadwinrate.png)
-
 - **Where it performs well or poorly:** It performed best at 15 and 25 minutes, with 70.8% accuracy and ROC-AUC scores of 0.793 and 0.764. Performance was weaker at 35 minutes (62.1% accuracy) an[...]
 - **What the confusion matrix shows:** On the held-out data, logistic regression correctly predicted 2,119 losses and 2,119 wins. It incorrectly predicted 934 wins as losses and 934 losses as win[...]
 
