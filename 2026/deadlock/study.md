@@ -53,7 +53,7 @@ Psychology sources at the bottom.
 ![Soul Lead Win Rate](soulleadwinrate.png)
 
 - **Summary statistics:**
-  - The summary statistics show that streaks do not happen often, as we go from almost 72,000 matches with no streak to around 2,500 matches on just a two-streak. (within the observed pages and date range).
+  - The statistics show that streaks do not happen often, as we go from almost 72,000 matches with no streak to around 2,500 matches on just a two-streak. (within the observed pages and date range). Alongside that, winning streaks have more impact while losing streaks do not make a significant impact outside of extreme situations.
   - Missing values are found on the second chart in terms of later games having low or no sample size. The longer the game goes on, the more comeback mechanics are in play. This forces games to gravitate to an even position, no matter how ahead a team was prior.
 - **Target distribution:** When considering non-streaked matches, it sits at a near 50% which matches the target. Even with 1 and 2 wins or losses in a row, it still sits near the target. This helps assume that the average game is properly 50/50 balanced.
 - **Patterns and outliers:** The heatmap suggests that greater relative gold advantage is associated with higher win probability, especially at 15 minutes. Later checkpoints have fewer matches and many low-count bins. The streak chart also varies by streak length, but the extreme streak groups have small samples.
