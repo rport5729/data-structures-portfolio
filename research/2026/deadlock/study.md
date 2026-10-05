@@ -146,6 +146,7 @@ Psychology sources at the bottom.
 
 - **Repository structure:**
   - `data-structures-portfolio/research/2026/deadlock`
+  - https://github.com/rport5729/data-structures-portfolio/tree/main/research/2026/deadlock
 - **Data citations:** [deadlock-api.com](https://deadlock-api.com) and its API documentation.
 - **AI disclosure:** AI tools were used adhering to course policy. Claude was used in producing and refining an outline as well as helping analyze the data, and GitHub Copilot was used in supporting code creation. Creative decisions, such as the research question, game information, and context that requires game knowledge and interpretation, among other things, were decided/created by myself.
 
